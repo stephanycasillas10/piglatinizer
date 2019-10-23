@@ -11,7 +11,7 @@ function pigLatinizer(userInput){
     let isVowel= checkVowel(userInput)
 
     if (isVowel===false){
-        return user.slice(1)+ userInput[0]+"ay"
+        return userInput.slice(1)+ userInput[0]+"ay"
     }
         return userInput +"ay"
 }
